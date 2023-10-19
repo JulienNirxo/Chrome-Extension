@@ -63,7 +63,7 @@ function onFling(direction) {
     dispBoard();
     wait = true;
 
-    setTimeout(afterOnFling, 1000);
+    setTimeout(afterOnFling);
 }
 
 
