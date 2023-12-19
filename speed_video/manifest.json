@@ -4,7 +4,8 @@
     "manifest_version": 3,
     "permissions": [
         "activeTab",
-        "scripting"
+        "scripting",
+        "storage"
     ],
     "description": "This extension will help you to speed up the video",
     "action": {
