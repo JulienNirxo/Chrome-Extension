@@ -1,0 +1,26 @@
+{
+    "name": "speed video",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": [
+        "activeTab",
+        "scripting",
+        "storage"
+    ],
+    "description": "This extension will help you to speed up the video",
+    "action": {
+        "default_title": "speed video",
+        "default_popup": "index.html",
+        "default_icon": {}
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ]
+}
